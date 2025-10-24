@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-image: url(./img/Banner.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    display: inline-block;
+
+
+
+    h1 {
+        font-size: 5rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: 1.5rem;
+        margin: o auto;
+        margin-bottom: 25px;
+        font-weight: bold;
+        text-align: center;
+        width: 70vw;
+        margin-left: 15%;
+    }
+
+    button {
+        background-color: #66bb6a;
+        color: white;
+        border: none;
+        padding: 20px 40px;
+        border-radius: 30px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .box-header {
+        background: rgba(0, 0, 0, 0.4);
+        height: inherit;
+        padding: 200px 40px 40px 40px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.cards {
+    background-color: #f1f8c9;
+    padding: 50px 20px;
+    text-align: center;
+
+    .card {
+        background-color: white;
+        width: 220px;
+        height: 328px;
+        margin: 15px;
+        padding-bottom: 20px;
+        display: inline-block;
+        border-radius: 10px;
+
+        img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            padding: 7px;
+            margin: 10px;
+        }
+
+        p {
+            font-size: 15px;
+            padding: 8px;
+            margin-bottom: 8px;
+        }
+
+        button {
+            font-size: 15px;
+            background-color: #66bb6a;
+            color: white;
+            border: none;
+            border-radius: 32px;
+            padding: 12px 20px;
+        }
+    }
+
+    article {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+}
+
+section{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    background-color: #e8f5e9;
+
+    .form {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    background-color: #e8f5e9;
+    width: 100%;
+
+    h2 {
+        font-size: 23px;
+        padding: 10px 20px;
+        margin-top: 28px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 13px;
+        color: #767676;
+        padding: 7px;
+    }
+}
+
+    
+
+.formulario-de-inscricao {
+max-width: 450px;
+padding: 30px;
+margin: 0 auto;
+
+
+    .formulario-inscricao_campos {
+        input[type="text"],
+        input[type="email"],
+        select {
+            padding: 15px 20px;
+            border: 1px solid #cccccc;
+            border-radius: 12px;
+            font-size: 16px;
+            box-sizing: border-box;
+            margin-bottom: 18px;
+            color: #333333;
+            display: inline-block;
+            width: 100%;
+            
+        }
+    }
+
+    .formulario-inscricao_botao {
+        font-size: 15px;
+            background-color: #66bb6a;
+            color: white;
+            border: none;
+            border-radius: 32px;
+            padding: 12px 20px;
+            width: 50%;
+
+    }
+    }
+}
+
+footer {
+width: 100%;
+background-color: #66bb6a;
+color: white;
+font-size: 12px;
+padding: 15px 20px;
+text-align: center;
+}
